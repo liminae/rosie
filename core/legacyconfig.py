@@ -1,0 +1,16 @@
+BOSS_CHANNEL_ID=None
+DRAW_CHANNEL_ID=None
+DRAW_ROLE_ID=None
+DROP_CHANNEL_ID=None
+
+
+def reset():
+    global BOSS_CHANNEL_ID
+    global DRAW_CHANNEL_ID
+    global DRAW_ROLE_ID
+    global DROP_CHANNEL_ID
+
+    BOSS_CHANNEL_ID=None
+    DRAW_CHANNEL_ID=None
+    DRAW_ROLE_ID=None
+    DROP_CHANNEL_ID=None
